@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+@viewport{
+    zoom: 1;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    zoom: 1;
+    width: extend-to-zoom;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    min-width: 500px;
+    max-width: 1140px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+ul{
+    list-style: none;
+}
+/* GLOBALNA NAVIGACIA */
+.navbar {
+    max-width: 1140px;
+    position: fixed;
+    width: 100%;
+    line-height: 80px;
+    background-color: green;
+
+    background-color: white;
+    color: black;
+    border-bottom: lightgray 1px solid;
+}
+
+.navbar ul{
+    float: right;
+    padding-right: 30px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 16px ;
+    font-weight: 100;
+    color: black;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.name{
+    float: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: black;
+    padding-left: 30px;
+}
+
+/* ABOUT */
+
+.note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #121212;
+    margin: 0 auto;
+    
+}
+.note h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.note h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.column1{
+    min-width: 400px;
+}
+
+.column-content{
+    margin: 30px;
+    margin-right: 60px;
+    
+}
+
+
+.info li{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+
+
+.info h3{
+    min-width: 150px;
+}
+
+.face{
+    width: 400px;
+    margin-left: 30px;
+}
+
+.about {
+    padding:30px;
+    font-size: 18px;
+    line-height: 1.5em;
+    background-color: lightgray;
+} 
+
+/* EDUCATION */
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#section-education .degree{
+    padding: 30px;
+}
+
+.edu{
+    display: flex;
+    flex-flow : wrap
+}
+.degrees{
+    min-width: 500px;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.courses{
+    height: 400px;
+    min-width: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.course h4{
+    font-size: 22px;
+    color:#ac6a4d;
+}
+
+#section-education {
+}
+
+#section-education h1{
+    padding: 30px;
+    
+}
+#section-education h2{
+    font-size: 40px;
+    color: #47444c;
+}
+
+#section-education h3{
+    color:#ac6a4d;
+}
+
+
+#section-projects{
+    padding: 30px;
+}
+#section-projects h2{
+    color:#ac6a4d;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    width: 33%;
+    min-width: 350px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.project h3{
+    background-color: #121212;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.project p{
+    background-color: lightgray;
+    padding: 10px;
+}
+
+#section-it{
+    padding-bottom: 100px;
+}
+
+#section-film{
+    padding-bottom: 100px;
+}
+
+#section-side{
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#section-about{
+    padding: 200px 0px 0px 0px;
+}
+
+#section-education{
+    padding: 100px 0px 0px 0px;
+}
+
+#section-projects{
+    
+    padding: 100px 30px 0px 30px;
+}
